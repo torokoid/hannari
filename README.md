@@ -113,7 +113,7 @@ background-color: rgba(0, 225, 0, 0.8);
 <a href="20100826_007.jpg" data-lightbox="abc"><img src="20100826_007.jpg" alt="サンプル画像" width="900" /></a>
 <a href="20100826_008.jpg" data-lightbox="abc"><img src="20100826_008.jpg" alt="サンプル画像" width="900" /></a>
 <a href="20100826_009.jpg" data-lightbox="abc"><img src="20100826_009.jpg" alt="サンプル画像" width="900" /></a>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <section><span class="blue">
 <!-- begin wwww.htmlcommentbox.com -->
  <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">HTML Comment Box</a> is loading comments...</div>
@@ -127,7 +127,7 @@ background-color: rgba(0, 225, 0, 0.8);
 
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
+<br><br><br><br><br><br><br><br><br><br>
 
 <a href="https://torokoid.github.io/oizumi">大泉高校30期のHP　← リンクあり</a>
 
