@@ -40,7 +40,7 @@ body::before {
   z-index:-1;
   width:100%;
   height:100vh;
-  background:url(https://torokoid.github.io/ohizumi_soccer/20190407_006.jpg) center/cover no-repeat; /*fixedをトル！*/
+  background:url(https://torokoid.github.io/hannari/20100826_001.jpg.jpg) center/cover no-repeat; /*fixedをトル！*/
   -webkit-background-size:cover;/*Android4*/
   }
 
@@ -62,7 +62,6 @@ background-color: rgba(0, 225, 0, 0.8);
    
 </head>
 <body onload="alert('雪路はんなりの会の記録〜〜(^o^)/')" onunload="alert('再会の時まで、元気でお過ごしくださいませ〜(^o^)/')">
-
 <h1><span class="yellow"><marquee behavior="alternate">!!! 吉祥寺 雪路 はんなりの会 2010/08/26 !!!</marquee></span></h1>
 
 
@@ -70,6 +69,17 @@ background-color: rgba(0, 225, 0, 0.8);
 <p class="note">
   モバイル端末をお使いの場合は、画面を横向きにするとより見やすくご覧頂けます。
 </p>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+<h1><span class="yellow"><marquee behavior="alternate">!!! 池袋 有志 同期会 2010/08/26 !!!</marquee></span></h1>
+
+
+
+
 
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
