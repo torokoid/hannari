@@ -62,7 +62,7 @@ background-color: rgba(0, 225, 0, 0.8);
    
 </head>
 <body onload="alert('雪路はんなりの会の記録〜〜(^o^)/')" onunload="alert('再会の時まで、元気でお過ごしくださいませ〜(^o^)/')">
-<h1><span class="yellow"><marquee behavior="alternate">!!! 吉祥寺 雪路 はんなりの会 2010/08/26 !!!</marquee></span></h1>
+<h1><span class="yellow"><marquee behavior="alternate">!!! 吉祥寺 雪路 はんなりの会 2019/**/** !!!</marquee></span></h1>
 
 
 
@@ -72,14 +72,28 @@ background-color: rgba(0, 225, 0, 0.8);
 
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
+<a href="20190417_001.jpg" data-lightbox="abc"><img src="20190417_001.jpg" alt="サンプル画像" width="900" /></a>
+<a href="20190417_002.jpg" data-lightbox="abc"><img src="20190417_002.jpg" alt="サンプル画像" width="900" /></a>
+<a href="20190417_003.jpg" data-lightbox="abc"><img src="20190417_003.jpg" alt="サンプル画像" width="900" /></a>
+<a href="20190417_004.jpg" data-lightbox="abc"><img src="20190417_004.jpg" alt="サンプル画像" width="900" /></a>
+<a href="20190417_005.jpg" data-lightbox="abc"><img src="20190417_005.jpg" alt="サンプル画像" width="900" /></a>
+<a href="20190417_006.jpg" data-lightbox="abc"><img src="20190417_006.jpg" alt="サンプル画像" width="900" /></a>
+<a href="20190417_007.jpg" data-lightbox="abc"><img src="20190417_007.jpg" alt="サンプル画像" width="900" /></a>
+<a href="20190417_008.jpg" data-lightbox="abc"><img src="20190417_008.jpg" alt="サンプル画像" width="900" /></a>
+<a href="20190417_009.jpg" data-lightbox="abc"><img src="20190417_009.jpg" alt="サンプル画像" width="900" /></a>
+<a href="20190417_010.jpg" data-lightbox="abc"><img src="20190417_010.jpg" alt="サンプル画像" width="900" /></a>
+<a href="20190417_011.jpg" data-lightbox="abc"><img src="20190417_011.jpg" alt="サンプル画像" width="900" /></a>
+<a href="20190417_012.jpg" data-lightbox="abc"><img src="20190417_012.jpg" alt="サンプル画像" width="900" /></a>
+<a href="20190417_013.jpg" data-lightbox="abc"><img src="20190417_013.jpg" alt="サンプル画像" width="900" /></a>
+<a href="20190417_014.jpg" data-lightbox="abc"><img src="20190417_014.jpg" alt="サンプル画像" width="900" /></a>
+<a href="20190417_015.jpg" data-lightbox="abc"><img src="20190417_015.jpg" alt="サンプル画像" width="900" /></a>
+<a href="20190417_016.jpg" data-lightbox="abc"><img src="20190417_016.jpg" alt="サンプル画像" width="900" /></a>
+<a href="20190417_017.jpg" data-lightbox="abc"><img src="20190417_017.jpg" alt="サンプル画像" width="900" /></a>
+<a href="20190417_018.jpg" data-lightbox="abc"><img src="20190417_018.jpg" alt="サンプル画像" width="900" /></a>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
 <h1><span class="yellow"><marquee behavior="alternate">!!! 池袋 有志 同期会 2010/08/26 !!!</marquee></span></h1>
-
-
-
-
 
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
