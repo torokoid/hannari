@@ -129,7 +129,7 @@ background-color: rgba(0, 225, 0, 0.8);
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
-
+<a href="https://torokoid.github.io/oizumi">大泉高校30期のHP　← リンクあり</a>
 
 
 
