@@ -97,7 +97,7 @@ background-color: rgba(0, 225, 0, 0.8);
 <a href="20190417_018.jpg" data-lightbox="abc"><img src="20190417_018.jpg" alt="サンプル画像" width="900" /></a>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </div>
-<div style=“background: url(https://torokoid.github.io/hannari/20100826_001.jpg) center/cover no-repeat; " >
+<div>
 <h1><span class="yellow"><marquee behavior="alternate">!!! 池袋 有志 同期会 2010/08/28 !!!</marquee></span></h1>
 
 
