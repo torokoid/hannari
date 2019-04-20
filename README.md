@@ -66,7 +66,7 @@ background-color: rgba(0, 225, 0, 0.8);
 </head>
 <body onload="alert('雪路はんなりの会の記録〜〜(^o^)/')" onunload="alert('再会の時まで、元気でお過ごしくださいませ〜(^o^)/')">
 	
-<div1>
+<div>
 <h1><span class="yellow"><marquee behavior="alternate">!!! 吉祥寺 雪路 はんなりの会 2013?~2019年の記録 !!!</marquee></span></h1>
 
 
@@ -97,7 +97,7 @@ background-color: rgba(0, 225, 0, 0.8);
 <a href="20190417_018.jpg" data-lightbox="abc"><img src="20190417_018.jpg" alt="サンプル画像" width="900" /></a>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </div>
-<div2>
+<div style=“background: url(https://torokoid.github.io/hannari/20100826_001.jpg) center/cover no-repeat; " >
 <h1><span class="yellow"><marquee behavior="alternate">!!! 池袋 有志 同期会 2010/08/28 !!!</marquee></span></h1>
 
 
