@@ -31,7 +31,7 @@ font-size: 1.5em;
 }
 
 #wrap {background:none} /*PC用の背景はオフ*/
-div1::before {
+body::before {
   content:"";
   display:block;
   position:fixed;
