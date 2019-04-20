@@ -30,7 +30,8 @@ font-size: 1.5em;
 	text-align: center;
 }
 
-div2::before {
+#wrap {background:none} /*PC用の背景はオフ*/
+div1::before {
   content:"";
   display:block;
   position:fixed;
@@ -40,6 +41,20 @@ div2::before {
   width:100%;
   height:100vh;
   background:url(https://torokoid.github.io/hannari/20190417_010.jpg) center/cover no-repeat; /*fixedをトル！*/
+  -webkit-background-size:cover;/*Android4*/
+  }
+
+#wrap {background:none} /*PC用の背景はオフ*/
+div2::before {
+  content:"";
+  display:block;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:-1;
+  width:100%;
+  height:100vh;
+  background:url(https://torokoid.github.io/hannari/20100826_001.jpg) center/cover no-repeat; /*fixedをトル！*/
   -webkit-background-size:cover;/*Android4*/
   }
 
@@ -65,7 +80,7 @@ background-color: rgba(0, 225, 0, 0.8);
 </head>
 <body onload="alert('雪路はんなりの会の記録〜〜(^o^)/')" onunload="alert('再会の時まで、元気でお過ごしくださいませ〜(^o^)/')">
 	
-<div style="background:url("https://torokoid.github.io/hannari/20190417_00.jpg"); center/cover; no-repeat;">
+<div1>
 <h1><span class="yellow"><marquee behavior="alternate">!!! 吉祥寺 雪路 はんなりの会 2013?~2019年の記録 !!!</marquee></span></h1>
 
 
@@ -95,7 +110,7 @@ background-color: rgba(0, 225, 0, 0.8);
 <a href="20190417_017.jpg" data-lightbox="abc"><img src="20190417_017.jpg" alt="サンプル画像" width="900" /></a>
 <a href="20190417_018.jpg" data-lightbox="abc"><img src="20190417_018.jpg" alt="サンプル画像" width="900" /></a>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
+</div>
 <div2>
 <h1><span class="yellow"><marquee behavior="alternate">!!! 池袋 有志 同期会 2010/08/26 !!!</marquee></span></h1>
 
