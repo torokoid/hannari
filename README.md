@@ -40,7 +40,7 @@ body::before {
   z-index:-1;
   width:100%;
   height:100vh;
-  background:url(https://torokoid.github.io/hannari/20100826_001.jpg) center/cover no-repeat; /*fixedをトル！*/
+  background:url(https://torokoid.github.io/hannari/20100417_010.jpg) center/cover no-repeat; /*fixedをトル！*/
   -webkit-background-size:cover;/*Android4*/
   }
 
@@ -92,7 +92,7 @@ background-color: rgba(0, 225, 0, 0.8);
 <a href="20190417_018.jpg" data-lightbox="abc"><img src="20190417_018.jpg" alt="サンプル画像" width="900" /></a>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-
+<div background:url(https://torokoid.github.io/hannari/20100826_001.jpg) center/cover no-repeat>
 <h1><span class="yellow"><marquee behavior="alternate">!!! 池袋 有志 同期会 2010/08/26 !!!</marquee></span></h1>
 
 
@@ -131,7 +131,7 @@ background-color: rgba(0, 225, 0, 0.8);
 
 <a href="https://torokoid.github.io/oizumi">大泉高校30期のHP　← リンクあり</a>
 
-
+</div>
 
 <script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
