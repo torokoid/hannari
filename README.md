@@ -62,7 +62,7 @@ background-color: rgba(0, 225, 0, 0.8);
    
 </head>
 <body onload="alert('雪路はんなりの会の記録〜〜(^o^)/')" onunload="alert('再会の時まで、元気でお過ごしくださいませ〜(^o^)/')">
-<h1><span class="yellow"><marquee behavior="alternate">!!! 吉祥寺 雪路 はんなりの会 2019/**/** !!!</marquee></span></h1>
+<h1><span class="yellow"><marquee behavior="alternate">!!! 吉祥寺 雪路 はんなりの会 2013~2019年の記録 !!!</marquee></span></h1>
 
 
 
