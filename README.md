@@ -44,6 +44,7 @@ div1::before {
   -webkit-background-size:cover;/*Android4*/
   }
 
+/*
 #wrap {background:none} /*PC用の背景はオフ*/
 div2::before {
   content:"";
@@ -57,7 +58,7 @@ div2::before {
   background:url(https://torokoid.github.io/hannari/20100826_001.jpg) center/cover no-repeat; /*fixedをトル！*/
   -webkit-background-size:cover;/*Android4*/
   }
-
+*/
 
 body {
 background-color: rgba(0, 225, 0, 0.4); 
@@ -112,7 +113,7 @@ background-color: rgba(0, 225, 0, 0.8);
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </div>
 <div2>
-<h1><span class="yellow"><marquee behavior="alternate">!!! 池袋 有志 同期会 2010/08/26 !!!</marquee></span></h1>
+<h1><span class="yellow"><marquee behavior="alternate">!!! 池袋 有志 同期会 2010/08/28 !!!</marquee></span></h1>
 
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
