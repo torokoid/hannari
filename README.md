@@ -30,6 +30,18 @@ font-size: 1.5em;
 	text-align: center;
 }
 
+div2::before {
+  content:"";
+  display:block;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:-1;
+  width:100%;
+  height:100vh;
+  background:url(https://torokoid.github.io/hannari/20190417_010.jpg) center/cover no-repeat; /*fixedをトル！*/
+  -webkit-background-size:cover;/*Android4*/
+  }
 
 
 body {
@@ -43,6 +55,8 @@ background-color: rgba(0, 225, 0, 0.8);
 	screen and (orientation: landscape) {
    p.note { display: none; }
 }
+
+
 
 </style> 
 
@@ -82,7 +96,7 @@ background-color: rgba(0, 225, 0, 0.8);
 <a href="20190417_018.jpg" data-lightbox="abc"><img src="20190417_018.jpg" alt="サンプル画像" width="900" /></a>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-<div style="background:url("https://torokoid.github.io/hannari/20100826_001.jpg"); center/cover; no-repeat;">
+<div2>
 <h1><span class="yellow"><marquee behavior="alternate">!!! 池袋 有志 同期会 2010/08/26 !!!</marquee></span></h1>
 
 
