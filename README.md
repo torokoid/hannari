@@ -44,7 +44,7 @@ div1::before {
   -webkit-background-size:cover;/*Android4*/
   }
 
-/*
+<!--
 #wrap {background:none} /*PC用の背景はオフ*/
 div2::before {
   content:"";
@@ -58,7 +58,7 @@ div2::before {
   background:url(https://torokoid.github.io/hannari/20100826_001.jpg) center/cover no-repeat; /*fixedをトル！*/
   -webkit-background-size:cover;/*Android4*/
   }
-*/
+-->
 
 body {
 background-color: rgba(0, 225, 0, 0.4); 
