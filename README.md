@@ -160,8 +160,7 @@ font-size: 1.5em;
 <!-- end www.htmlcommentbox.com -->
 </span></section>
 
-        </div>
-    </div><!-- content02 -->
+
 
 
 
@@ -199,4 +198,6 @@ font-size: 1.5em;
  <footer>
  <span class="white">Copyright 2019/04/19 Pe-Young(S.Hada)</span>
  </footer>
+         </div>
+    </div><!-- content02 -->
 </section>
