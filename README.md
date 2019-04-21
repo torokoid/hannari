@@ -74,6 +74,9 @@ font-size: 1.5em;
 }
 
 
+section {
+background-color: rgba(0, 225, 0, 0.8);
+}
 
 
 @media	screen and (min-width: 540px),
