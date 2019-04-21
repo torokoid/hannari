@@ -74,10 +74,6 @@ font-size: 1.5em;
 }
 
 
-section {
-background-color: rgba(0, 225, 0, 0.8);
-}
-
 
 @media	screen and (min-width: 540px),
 	screen and (orientation: landscape) {
@@ -203,3 +199,4 @@ background-color: rgba(0, 225, 0, 0.8);
  <footer>
  <span class="white">Copyright 2019/04/19 Pe-Young(S.Hada)</span>
  </footer>
+</section>
