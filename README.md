@@ -56,10 +56,8 @@ font-size: 1.5em;
 /* design*/
 #content01_bg {background-image: url(https://torokoid.github.io/hannari/20190417_010.jpg);}
 #content02_bg {background-image: url(https://torokoid.github.io/hannari/20100826_001.jpg);}
-#content03_bg {background-image: url(images/woman-2711279_1920.jpg);}
 #content01 .wrap { background-color: rgba(255,0,0,0.2);}
 #content02 .wrap { background-color: rgba(0,255,0,0.2);}
-#content03 .wrap { background-color: rgba(0,0,255,0.2);}
 .text-box {
     padding: 50px 25px;
     width: 480px;
@@ -75,9 +73,7 @@ font-size: 1.5em;
     line-height: 2;
 }
 
-section {
-background-color: rgba(0, 225, 0, 0.8);
-}
+
 
 
 @media	screen and (min-width: 540px),
