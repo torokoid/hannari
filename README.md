@@ -2,7 +2,7 @@
 <html lang="ja">
  <head>
   <meta charset="utf-8" />
-	 
+<title>Scroll Background Fadein | naoyu.net</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no”>
 <!-- Global site tag (gtag.js) - Google Analytics —>
 <script src="https://pagead2.googlesyndication.com/pagead/js/r20190417/r20190131/reactive_library.js"></script>
