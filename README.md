@@ -76,12 +76,7 @@ font-size: 1.5em;
 }
 
 
-body {
-background-color: rgba(0, 225, 0, 0.4); 
-}
-section {
-background-color: rgba(0, 225, 0, 0.8);
-}
+
 
 @media	screen and (min-width: 540px),
 	screen and (orientation: landscape) {
@@ -101,7 +96,7 @@ background-color: rgba(0, 225, 0, 0.8);
     <div id="content01" class="contents">
         <div id="content01_bg" class="background"></div>
         <div class="wrap">
-            <div class="text-box">
+
 <h1><span class="yellow"><marquee behavior="alternate">!!! 吉祥寺 雪路 はんなりの会 2013?~2019年の記録 !!!</marquee></span></h1>
 
 
@@ -131,13 +126,12 @@ background-color: rgba(0, 225, 0, 0.8);
 <a href="20190417_017.jpg" data-lightbox="abc"><img src="20190417_017.jpg" alt="サンプル画像" width="900" /></a>
 <a href="20190417_018.jpg" data-lightbox="abc"><img src="20190417_018.jpg" alt="サンプル画像" width="900" /></a>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-            </div>
         </div>
     </div><!-- content01 -->
     <div id="content02" class="contents">
         <div id="content02_bg" class="background"></div>
         <div class="wrap">
-            <div class="text-box">
+
 <h1><span class="yellow"><marquee behavior="alternate">!!! 池袋 有志 同期会 2010/08/28 !!!</marquee></span></h1>
 
 
@@ -159,7 +153,6 @@ background-color: rgba(0, 225, 0, 0.8);
 <a href="20100826_008.jpg" data-lightbox="abc"><img src="20100826_008.jpg" alt="サンプル画像" width="900" /></a>
 <a href="20100826_009.jpg" data-lightbox="abc"><img src="20100826_009.jpg" alt="サンプル画像" width="900" /></a>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-            </div>
         </div>
     </div><!-- content02 -->
 
