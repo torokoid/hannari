@@ -2,6 +2,25 @@
 <html lang="ja">
  <head>
   <meta charset="utf-8" />
+	 
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no”>
+<!-- Global site tag (gtag.js) - Google Analytics —>
+<script src="https://pagead2.googlesyndication.com/pagead/js/r20190417/r20190131/reactive_library.js"></script>
+<script src="https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101"></script>
+<script src="https://pagead2.googlesyndication.com/pub-config/r20160913/ca-pub-7408088410773034.js"></script>
+<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-10603270-10"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-10603270-10');
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	 
 <style type="text/css">
 
   p {
