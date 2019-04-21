@@ -30,19 +30,50 @@ font-size: 1.5em;
 	text-align: center;
 }
 
-#wrap {background:none} /*PC用の背景はオフ*/
-body::before {
-  content:"";
-  display:block;
-  position:fixed;
-  top:0;
-  left:0;
-  z-index:-1;
-  width:100%;
-  height:100vh;
-  background:url(https://torokoid.github.io/hannari/20190417_010.jpg) center/cover no-repeat; /*fixedをトル！*/
-  -webkit-background-size:cover;/*Android4*/
-  }
+/* init */
+.background {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    position: fixed;
+    background-position: center center;
+    opacity: 0;
+-webkit-background-size: cover;
+        background-size: cover;
+-webkit-transition: all 0.5s ease 0s;
+   -moz-transition: all 0.5s ease 0s;
+        transition: all 0.5s ease 0s;
+}
+.show .background {
+    opacity: 1;
+}
+.contents .wrap {
+    padding: 40vh 0 60vh;
+    position: relative;
+    z-index: 2;
+}
+/* design*/
+#content01_bg {background-image: url(https://torokoid.github.io/hannari/20190417_010.jpg);}
+#content02_bg {background-image: url(https://torokoid.github.io/hannari/20100826_001.jpg);}
+#content03_bg {background-image: url(images/woman-2711279_1920.jpg);}
+#content01 .wrap { background-color: rgba(255,0,0,0.2);}
+#content02 .wrap { background-color: rgba(0,255,0,0.2);}
+#content03 .wrap { background-color: rgba(0,0,255,0.2);}
+.text-box {
+    padding: 50px 25px;
+    width: 480px;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+}
+.text-box .catch {
+    margin: 0 0 10px;
+    font-size: 40px;
+}
+.text-box .copy {
+    margin: 0;
+    line-height: 2;
+}
 
 
 body {
@@ -66,7 +97,11 @@ background-color: rgba(0, 225, 0, 0.8);
 </head>
 <body onload="alert('雪路はんなりの会の記録〜〜(^o^)/')" onunload="alert('再会の時まで、元気でお過ごしくださいませ〜(^o^)/')">
 	
-<div>
+<section id="contents">
+    <div id="content01" class="contents">
+        <div id="content01_bg" class="background"></div>
+        <div class="wrap">
+            <div class="text-box">
 <h1><span class="yellow"><marquee behavior="alternate">!!! 吉祥寺 雪路 はんなりの会 2013?~2019年の記録 !!!</marquee></span></h1>
 
 
@@ -96,8 +131,13 @@ background-color: rgba(0, 225, 0, 0.8);
 <a href="20190417_017.jpg" data-lightbox="abc"><img src="20190417_017.jpg" alt="サンプル画像" width="900" /></a>
 <a href="20190417_018.jpg" data-lightbox="abc"><img src="20190417_018.jpg" alt="サンプル画像" width="900" /></a>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-</div>
-<div>
+            </div>
+        </div>
+    </div><!-- content01 -->
+    <div id="content02" class="contents">
+        <div id="content02_bg" class="background"></div>
+        <div class="wrap">
+            <div class="text-box">
 <h1><span class="yellow"><marquee behavior="alternate">!!! 池袋 有志 同期会 2010/08/28 !!!</marquee></span></h1>
 
 
@@ -119,6 +159,10 @@ background-color: rgba(0, 225, 0, 0.8);
 <a href="20100826_008.jpg" data-lightbox="abc"><img src="20100826_008.jpg" alt="サンプル画像" width="900" /></a>
 <a href="20100826_009.jpg" data-lightbox="abc"><img src="20100826_009.jpg" alt="サンプル画像" width="900" /></a>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            </div>
+        </div>
+    </div><!-- content02 -->
+
 <section><span class="blue">
 <!-- begin wwww.htmlcommentbox.com -->
  <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">HTML Comment Box</a> is loading comments...</div>
@@ -136,8 +180,26 @@ background-color: rgba(0, 225, 0, 0.8);
 
 <a href="https://torokoid.github.io/oizumi">大泉高校30期のHP　← リンクあり</a>
 
-</div>
 
+    
+<script>
+	$(function(){
+    $('.contents').each(function(i, elem){
+        var contentsPOS = $(elem).offset().top;
+        $(window).on('load scroll resize', function(){
+            var winHeight = $(window).height();
+            var scrollTop = $(window).scrollTop();
+            var showClass = 'show';
+            var timing = 100; // 100pxコンテンツが見えたら次のif文がtrue
+            if (scrollTop >= contentsPOS - winHeight + timing){
+              $(elem).addClass(showClass);
+            } else {
+              $(elem).removeClass(showClass);
+            }
+        });
+    });
+});
+</script>
 <script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
 
