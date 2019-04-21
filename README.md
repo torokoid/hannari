@@ -75,7 +75,9 @@ font-size: 1.5em;
     line-height: 2;
 }
 
-
+section {
+background-color: rgba(0, 225, 0, 0.8);
+}
 
 
 @media	screen and (min-width: 540px),
@@ -153,8 +155,7 @@ font-size: 1.5em;
 <a href="20100826_008.jpg" data-lightbox="abc"><img src="20100826_008.jpg" alt="サンプル画像" width="900" /></a>
 <a href="20100826_009.jpg" data-lightbox="abc"><img src="20100826_009.jpg" alt="サンプル画像" width="900" /></a>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        </div>
-    </div><!-- content02 -->
+
 
 <section><span class="blue">
 <!-- begin wwww.htmlcommentbox.com -->
@@ -164,7 +165,8 @@ font-size: 1.5em;
 <!-- end www.htmlcommentbox.com -->
 </span></section>
 
-
+        </div>
+    </div><!-- content02 -->
 
 
 
