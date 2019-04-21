@@ -1,16 +1,12 @@
 # hannari
+<!-- saved from url=(0054)https://naoyu.net/sample/scroll-background-fadein.html -->
 <html lang="ja">
- <head>
-  <meta charset="utf-8" />
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Scroll Background Fadein | naoyu.net</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no”>
-<!-- Global site tag (gtag.js) - Google Analytics —>
-<script src="https://pagead2.googlesyndication.com/pagead/js/r20190417/r20190131/reactive_library.js"></script>
-<script src="https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101"></script>
-<script src="https://pagead2.googlesyndication.com/pub-config/r20160913/ca-pub-7408088410773034.js"></script>
-<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-10603270-10"></script>
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script src="./Scroll Background Fadein _ naoyu.net_files/amp4ads-host-v0.js"></script><script src="./Scroll Background Fadein _ naoyu.net_files/osd.js"></script><script type="text/javascript" async="" src="./Scroll Background Fadein _ naoyu.net_files/analytics.js"></script><script src="./Scroll Background Fadein _ naoyu.net_files/ca-pub-7408088410773034.js"></script><script async="" src="./Scroll Background Fadein _ naoyu.net_files/js"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -18,37 +14,8 @@
 
   gtag('config', 'UA-10603270-10');
 </script>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-	 
-<style type="text/css">
-
-  p {
-color: #fffafa;
-font-size: 1.5em;
- }
-<!--
- .red {color:#ff0000;}
- .grey {color:#999999;}
- .snow {color:#fffafa;}
- .yellow {color:#ff0000; background:#ffff00;}
- .blue {color:#0000ff;}
- .white {color:#ffffff; blinking;}
- .waku {border:2px dotted #99cc66;
-　　　　　　line-height: 200%;
-　　　　　　padding: 10px;}
- -->
-
- #preview{
-	position: relative;
-	border: 3px solid #333;
-	background: #444;
-	padding: 5px;
-	display: none;
-	color: #FFF;
-	text-align: center;
-}
-
+<script src="./Scroll Background Fadein _ naoyu.net_files/jquery.min.js"></script>
+<style>
 /* init */
 .background {
     top: 0;
@@ -64,24 +31,27 @@ font-size: 1.5em;
    -moz-transition: all 0.5s ease 0s;
         transition: all 0.5s ease 0s;
 }
-.show .background {
-    opacity: 1;
-}
+.show .background { opacity: 1;}
 .contents .wrap {
     padding: 40vh 0 60vh;
     position: relative;
     z-index: 2;
 }
 /* design*/
-#content01_bg {background-image: url(https://torokoid.github.io/hannari/20190417_010.jpg);}
-#content02_bg {background-image: url(https://torokoid.github.io/hannari/20100826_001.jpg);}
+      #content01_bg {background-image: url(/Users/sajyan/Downloads/nogi/20190417_010.jpg);}
+      #content02_bg {background-image: url(/Users/sajyan/Downloads/nogi/20100826_001.jpg);}
+      #content03_bg {background-image: url(/Users/sajyan/Downloads/nogi/20190417_011.jpg);}
 #content01 .wrap { background-color: rgba(255,0,0,0.2);}
 #content02 .wrap { background-color: rgba(0,255,0,0.2);}
+#content03 .wrap { background-color: rgba(0,0,255,0.2);}
 .text-box {
     padding: 50px 25px;
-    width: 480px;
+    max-width: 640px;
     background-color: rgba(0,0,0,0.5);
     color: #fff;
+}
+#content02 .text-box {
+    margin-left: auto;
 }
 .text-box .catch {
     margin: 0 0 10px;
@@ -91,118 +61,71 @@ font-size: 1.5em;
     margin: 0;
     line-height: 2;
 }
+a{color: #fff;}
+</style>
+<link rel="preload" href="./Scroll Background Fadein _ naoyu.net_files/f.txt" as="script"><script type="text/javascript" src="./Scroll Background Fadein _ naoyu.net_files/f.txt"></script><link rel="preload" href="./Scroll Background Fadein _ naoyu.net_files/f(1).txt" as="script"><script type="text/javascript" src="./Scroll Background Fadein _ naoyu.net_files/f(1).txt"></script><link rel="preload" href="https://pagead2.googlesyndication.com/pagead/js/r20190417/r20190131/show_ads_impl.js" as="script"></head>
+<body>
 
-
-
-@media	screen and (min-width: 540px),
-	screen and (orientation: landscape) {
-   p.note { display: none; }
-}
-
-
-
-</style> 
-
-<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
-   
-</head>
-<body onload="alert('雪路はんなりの会の記録〜〜(^o^)/')" onunload="alert('再会の時まで、元気でお過ごしくださいませ〜(^o^)/')">
-	
 <section id="contents">
-    <div id="content01" class="contents">
+    <div id="content01" class="contents show">
         <div id="content01_bg" class="background"></div>
         <div class="wrap">
-
-<h1><span class="yellow"><marquee behavior="alternate">!!! 吉祥寺 雪路 はんなりの会 2013?~2019年の記録 !!!</marquee></span></h1>
-
-
-
-<p class="note">
-  モバイル端末をお使いの場合は、画面を横向きにするとより見やすくご覧頂けます。
-</p>
-
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<a href="20190417_001.jpg" data-lightbox="abc"><img src="20190417_001.jpg" alt="サンプル画像" width="900" /></a>
-<a href="20190417_002.jpg" data-lightbox="abc"><img src="20190417_002.jpg" alt="サンプル画像" width="900" /></a>
-<a href="20190417_003.jpg" data-lightbox="abc"><img src="20190417_003.jpg" alt="サンプル画像" width="900" /></a>
-<a href="20190417_004.jpg" data-lightbox="abc"><img src="20190417_004.jpg" alt="サンプル画像" width="900" /></a>
-<a href="20190417_005.jpg" data-lightbox="abc"><img src="20190417_005.jpg" alt="サンプル画像" width="900" /></a>
-<a href="20190417_006.jpg" data-lightbox="abc"><img src="20190417_006.jpg" alt="サンプル画像" width="900" /></a>
-<a href="20190417_007.jpg" data-lightbox="abc"><img src="20190417_007.jpg" alt="サンプル画像" width="900" /></a>
-<a href="20190417_008.jpg" data-lightbox="abc"><img src="20190417_008.jpg" alt="サンプル画像" width="900" /></a>
-<a href="20190417_009.jpg" data-lightbox="abc"><img src="20190417_009.jpg" alt="サンプル画像" width="900" /></a>
-<a href="20190417_010.jpg" data-lightbox="abc"><img src="20190417_010.jpg" alt="サンプル画像" width="900" /></a>
-<a href="20190417_011.jpg" data-lightbox="abc"><img src="20190417_011.jpg" alt="サンプル画像" width="900" /></a>
-<a href="20190417_012.jpg" data-lightbox="abc"><img src="20190417_012.jpg" alt="サンプル画像" width="900" /></a>
-<a href="20190417_013.jpg" data-lightbox="abc"><img src="20190417_013.jpg" alt="サンプル画像" width="900" /></a>
-<a href="20190417_014.jpg" data-lightbox="abc"><img src="20190417_014.jpg" alt="サンプル画像" width="900" /></a>
-<a href="20190417_015.jpg" data-lightbox="abc"><img src="20190417_015.jpg" alt="サンプル画像" width="900" /></a>
-<a href="20190417_016.jpg" data-lightbox="abc"><img src="20190417_016.jpg" alt="サンプル画像" width="900" /></a>
-<a href="20190417_017.jpg" data-lightbox="abc"><img src="20190417_017.jpg" alt="サンプル画像" width="900" /></a>
-<a href="20190417_018.jpg" data-lightbox="abc"><img src="20190417_018.jpg" alt="サンプル画像" width="900" /></a>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <div class="text-box">
+            <h1><span class="yellow"><marquee behavior="alternate">!!! 吉祥寺 雪路 はんなりの会 2013?~2019年の記録 !!!</marquee></span></h1>
+            <a href="20190417_001.jpg" data-lightbox="abc"><img src="20190417_001.jpg" alt="サンプル画像" width="900" /></a>
+            <a href="20190417_002.jpg" data-lightbox="abc"><img src="20190417_002.jpg" alt="サンプル画像" width="900" /></a>
+            <a href="20190417_003.jpg" data-lightbox="abc"><img src="20190417_003.jpg" alt="サンプル画像" width="900" /></a>
+            <a href="20190417_004.jpg" data-lightbox="abc"><img src="20190417_004.jpg" alt="サンプル画像" width="900" /></a>
+            <a href="20190417_005.jpg" data-lightbox="abc"><img src="20190417_005.jpg" alt="サンプル画像" width="900" /></a>
+            <a href="20190417_006.jpg" data-lightbox="abc"><img src="20190417_006.jpg" alt="サンプル画像" width="900" /></a>
+            <a href="20190417_007.jpg" data-lightbox="abc"><img src="20190417_007.jpg" alt="サンプル画像" width="900" /></a>
+            <a href="20190417_008.jpg" data-lightbox="abc"><img src="20190417_008.jpg" alt="サンプル画像" width="900" /></a>
+            <a href="20190417_009.jpg" data-lightbox="abc"><img src="20190417_009.jpg" alt="サンプル画像" width="900" /></a>
+            <a href="20190417_010.jpg" data-lightbox="abc"><img src="20190417_010.jpg" alt="サンプル画像" width="900" /></a>
+            <a href="20190417_011.jpg" data-lightbox="abc"><img src="20190417_011.jpg" alt="サンプル画像" width="900" /></a>
+            <a href="20190417_012.jpg" data-lightbox="abc"><img src="20190417_012.jpg" alt="サンプル画像" width="900" /></a>
+            <a href="20190417_013.jpg" data-lightbox="abc"><img src="20190417_013.jpg" alt="サンプル画像" width="900" /></a>
+            <a href="20190417_014.jpg" data-lightbox="abc"><img src="20190417_014.jpg" alt="サンプル画像" width="900" /></a>
+            <a href="20190417_015.jpg" data-lightbox="abc"><img src="20190417_015.jpg" alt="サンプル画像" width="900" /></a>
+            <a href="20190417_016.jpg" data-lightbox="abc"><img src="20190417_016.jpg" alt="サンプル画像" width="900" /></a>
+            <a href="20190417_017.jpg" data-lightbox="abc"><img src="20190417_017.jpg" alt="サンプル画像" width="900" /></a>
+            <a href="20190417_018.jpg" data-lightbox="abc"><img src="20190417_018.jpg" alt="サンプル画像" width="900" /></a>
+          </div>
         </div>
     </div><!-- content01 -->
-    
     <div id="content02" class="contents">
         <div id="content02_bg" class="background"></div>
         <div class="wrap">
-
-<h1><span class="yellow"><marquee behavior="alternate">!!! 池袋 有志 同期会 2010/08/28 !!!</marquee></span></h1>
-
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<!--
-<p align="left"> <img src="ooizumi.png" alt="アクセス用QRコード" width="100">アクセス用QRコード</p>
-<p align="right"><marquee direction="right" scrollamount="20" width="30%">(^_^)/~hada</marquee></p>
-<h2><span class="yellow"><marquee behavior="alternate">!!! 2019年6月1日、還暦祝い@池袋 !!!</marquee></span></h2>
--->
-
-
-<a href="20100826_001.jpg" data-lightbox="abc"><img src="20100826_001.jpg" alt="サンプル画像" width="900" /></a>
-<a href="20100826_002.jpg" data-lightbox="abc"><img src="20100826_002.jpg" alt="サンプル画像" width="900" /></a>
-<a href="20100826_003.jpg" data-lightbox="abc"><img src="20100826_003.jpg" alt="サンプル画像" width="900" /></a>
-<a href="20100826_004.jpg" data-lightbox="abc"><img src="20100826_004.jpg" alt="サンプル画像" width="900" /></a>
-<a href="20100826_005.jpg" data-lightbox="abc"><img src="20100826_005.jpg" alt="サンプル画像" width="900" /></a>
-<a href="20100826_006.jpg" data-lightbox="abc"><img src="20100826_006.jpg" alt="サンプル画像" width="900" /></a>
-<a href="20100826_007.jpg" data-lightbox="abc"><img src="20100826_007.jpg" alt="サンプル画像" width="900" /></a>
-<a href="20100826_008.jpg" data-lightbox="abc"><img src="20100826_008.jpg" alt="サンプル画像" width="900" /></a>
-<a href="20100826_009.jpg" data-lightbox="abc"><img src="20100826_009.jpg" alt="サンプル画像" width="900" /></a>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-    	</div>
+            <div class="text-box">
+            <h1><span class="yellow"><marquee behavior="alternate">!!! 池袋 有志 同期会 2010/08/28 !!!</marquee></span></h1>
+            <a href="20100826_001.jpg" data-lightbox="abc"><img src="20100826_001.jpg" alt="サンプル画像" width="900" /></a>
+            <a href="20100826_002.jpg" data-lightbox="abc"><img src="20100826_002.jpg" alt="サンプル画像" width="900" /></a>
+            <a href="20100826_003.jpg" data-lightbox="abc"><img src="20100826_003.jpg" alt="サンプル画像" width="900" /></a>
+            <a href="20100826_004.jpg" data-lightbox="abc"><img src="20100826_004.jpg" alt="サンプル画像" width="900" /></a>
+            <a href="20100826_005.jpg" data-lightbox="abc"><img src="20100826_005.jpg" alt="サンプル画像" width="900" /></a>
+            <a href="20100826_006.jpg" data-lightbox="abc"><img src="20100826_006.jpg" alt="サンプル画像" width="900" /></a>
+            <a href="20100826_007.jpg" data-lightbox="abc"><img src="20100826_007.jpg" alt="サンプル画像" width="900" /></a>
+            <a href="20100826_008.jpg" data-lightbox="abc"><img src="20100826_008.jpg" alt="サンプル画像" width="900" /></a>
+            <a href="20100826_009.jpg" data-lightbox="abc"><img src="20100826_009.jpg" alt="サンプル画像" width="900" /></a>
+            </div>
+        </div>
     </div><!-- content02 -->
+    <div id="content03" class="contents">
+        <div id="content03_bg" class="background"></div>
+        <div class="wrap">
+        </div>
+    </div><!-- content03 -->
 </section>
 
-<section><span class="blue">
-<!-- begin wwww.htmlcommentbox.com -->
- <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">HTML Comment Box</a> is loading comments...</div>
- <link rel="stylesheet" type="text/css" href="//www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
- <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="//www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&opts=16862&num=10&ts=1549107119172");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
-<!-- end www.htmlcommentbox.com -->
-</span></section>
-
-
-
-
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br>
-
-<a href="https://torokoid.github.io/oizumi">大泉高校30期のHP　← リンクあり</a>
-
-
-    
 <script>
-	$(function(){
+$(function(){
     $('.contents').each(function(i, elem){
         var contentsPOS = $(elem).offset().top;
         $(window).on('load scroll resize', function(){
             var winHeight = $(window).height();
             var scrollTop = $(window).scrollTop();
             var showClass = 'show';
-            var timing = 100; // 100pxコンテンツが見えたら次のif文がtrue
+            var timing = 100;
             if (scrollTop >= contentsPOS - winHeight + timing){
               $(elem).addClass(showClass);
             } else {
@@ -212,11 +135,10 @@ font-size: 1.5em;
     });
 });
 </script>
-<script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
 
-<br><br>
 
+
+<ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important;"><ins id="aswift_0_expand" style="display:inline-table;border:none;height:0px;margin:0;padding:0;position:relative;visibility:visible;width:0px;background-color:transparent;"><ins id="aswift_0_anchor" style="display:block;border:none;height:0px;margin:0;padding:0;position:relative;visibility:visible;width:0px;background-color:transparent;"><iframe frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;border:0px;width:0px;height:0px;" src="./Scroll Background Fadein _ naoyu.net_files/saved_resource(2).html"></iframe></ins></ins></ins><iframe id="google_osd_static_frame_3962800001390" name="google_osd_static_frame" style="display: none; width: 0px; height: 0px;" src="./Scroll Background Fadein _ naoyu.net_files/saved_resource(3).html"></iframe></body><iframe id="google_shimpl" style="display: none;" src="./Scroll Background Fadein _ naoyu.net_files/saved_resource(4).html"></iframe><iframe id="google_esf" name="google_esf" src="./Scroll Background Fadein _ naoyu.net_files/zrt_lookup.html" data-ad-client="ca-pub-7408088410773034" style="display: none;"></iframe>
 <!-- フッタ -->
  <footer>
  <span class="blue">Copyright 2019/04/19 Pe-Young(S.Hada)</span>
