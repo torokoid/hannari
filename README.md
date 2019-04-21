@@ -125,6 +125,7 @@ font-size: 1.5em;
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         </div>
     </div><!-- content01 -->
+    
     <div id="content02" class="contents">
         <div id="content02_bg" class="background"></div>
         <div class="wrap">
@@ -151,6 +152,9 @@ font-size: 1.5em;
 <a href="20100826_009.jpg" data-lightbox="abc"><img src="20100826_009.jpg" alt="サンプル画像" width="900" /></a>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
+    	</div>
+    </div><!-- content02 -->
+</section>
 
 <section><span class="blue">
 <!-- begin wwww.htmlcommentbox.com -->
@@ -196,8 +200,5 @@ font-size: 1.5em;
 
 <!-- フッタ -->
  <footer>
- <span class="white">Copyright 2019/04/19 Pe-Young(S.Hada)</span>
+ <span class="blue">Copyright 2019/04/19 Pe-Young(S.Hada)</span>
  </footer>
-         </div>
-    </div><!-- content02 -->
-</section>
