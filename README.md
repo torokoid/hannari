@@ -95,6 +95,7 @@ screen and (orientation: landscape) {
 <a href="20190417_017.jpg" data-lightbox="abc"><img src="20190417_017.jpg" alt="サンプル画像" width="900" /></a>
 <a href="20190417_018.jpg" data-lightbox="abc"><img src="20190417_018.jpg" alt="サンプル画像" width="900" /></a>
 <a href="https://torokoid.github.io/oizumi/sample.jpg" data-lightbox="abc"><img src="https://torokoid.github.io/oizumi/sample.jpg" alt="サンプル画像" width="900" /></a>
+<a href="20190429_001.jpg" data-lightbox="abc"><img src="20190429_001.jpg" alt="サンプル画像" width="900" /></a>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </div>
 <div>
