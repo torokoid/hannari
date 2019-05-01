@@ -98,28 +98,7 @@ screen and (orientation: landscape) {
 <a href="20190429_001.jpg" data-lightbox="abc"><img src="20190429_001.jpg" alt="サンプル画像" width="900" /></a>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </div>
-<div>
-<h1><span class="yellow"><marquee behavior="alternate">!!! 池袋 有志 同期会 2010/08/28 !!!</marquee></span></h1>
 
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<!--
-<p align="left"> <img src="ooizumi.png" alt="アクセス用QRコード" width="100">アクセス用QRコード</p>
-<p align="right"><marquee direction="right" scrollamount="20" width="30%">(^_^)/~hada</marquee></p>
-<h2><span class="yellow"><marquee behavior="alternate">!!! 2019年6月1日、還暦祝い@池袋 !!!</marquee></span></h2>
--->
-
-
-<a href="https://torokoid.github.io/hannari/20100826_001.jpg" data-lightbox="abc"><img src="https://torokoid.github.io/hannari/20100826_001.jpg" alt="サンプル画像" width="900" /></a>
-<a href="https://torokoid.github.io/hannari/20100826_002.jpg" data-lightbox="abc"><img src="https://torokoid.github.io/hannari/20100826_002.jpg" alt="サンプル画像" width="900" /></a>
-<a href="https://torokoid.github.io/hannari/20100826_003.jpg" data-lightbox="abc"><img src="https://torokoid.github.io/hannari/20100826_003.jpg" alt="サンプル画像" width="900" /></a>
-<a href="https://torokoid.github.io/hannari/20100826_004.jpg" data-lightbox="abc"><img src="https://torokoid.github.io/hannari/20100826_004.jpg" alt="サンプル画像" width="900" /></a>
-<a href="https://torokoid.github.io/hannari/20100826_005.jpg" data-lightbox="abc"><img src="https://torokoid.github.io/hannari/20100826_005.jpg" alt="サンプル画像" width="900" /></a>
-<a href="https://torokoid.github.io/hannari/20100826_006.jpg" data-lightbox="abc"><img src="https://torokoid.github.io/hannari/20100826_006.jpg" alt="サンプル画像" width="900" /></a>
-<a href="https://torokoid.github.io/hannari/20100826_007.jpg" data-lightbox="abc"><img src="https://torokoid.github.io/hannari/20100826_007.jpg" alt="サンプル画像" width="900" /></a>
-<a href="https://torokoid.github.io/hannari/20100826_008.jpg" data-lightbox="abc"><img src="https://torokoid.github.io/hannari/20100826_008.jpg" alt="サンプル画像" width="900" /></a>
-<a href="https://torokoid.github.io/hannari/20100826_009.jpg" data-lightbox="abc"><img src="https://torokoid.github.io/hannari/20100826_009.jpg" alt="サンプル画像" width="900" /></a>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <section><span class="blue">
 <!-- begin wwww.htmlcommentbox.com -->
  <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">HTML Comment Box</a> is loading comments...</div>
@@ -137,7 +116,7 @@ screen and (orientation: landscape) {
 
 <a href="https://torokoid.github.io/oizumi">大泉高校30期のHP　← リンクあり</a>
 
-</div>
+
 
 <script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
