@@ -69,7 +69,7 @@ screen and (orientation: landscape) {
 -->
 <div>
 <h1><span class="yellow"><marquee behavior="alternate">!!! 吉祥寺 雪路 はんなりの会 2013?~2019年の記録 !!!</marquee></span></h1>
-
+<p><a href="https://torokoid.github.io/home">Home</a>>はんなりの会</p>
 
 
 <p class="note">
