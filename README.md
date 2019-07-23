@@ -78,7 +78,7 @@ screen and (orientation: landscape) {
 
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<h1><span class="yellow"><marquee behavior="alternate">!!! 大泉高校30期、有志飲み会に青木先生が参加されました !!!</marquee></span></h1>
+<h1><span class="yellow"><marquee behavior="alternate">!!! 2019/07/23 大泉高校30期、有志飲み会に青木先生が参加されました !!!</marquee></span></h1>
 <a href="20190723_001.jpg" data-lightbox="abc"><img src="20190723_001.jpg" alt="サンプル画像" width="900" /></a>
 <br><br><br><br>
 <h1><span class="yellow"><marquee behavior="alternate">!!! 以下、はんなりの会　(^_^)/~hada !!!</marquee></span></h1>
